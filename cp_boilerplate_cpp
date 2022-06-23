@@ -16,4 +16,4 @@ using namespace std::chrono;
 #define cntbits(x) 				         	__builtin_popcountll(x)
 #define lagzrobits(x) 			        __builtin_ctzll(x)
 #define leadzrobits(x)              __builtin_clzll(x)
-#define mod 					            	1000000007
+#define modulo 				            	1000000007
