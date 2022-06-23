@@ -1,0 +1,12 @@
+int mod(int x){
+	return ((x%modulo + modulo)%modulo);
+}
+int add(int x,int y){
+	return mod(mod(x)+ mod(y));
+}
+int mul(int x,int y){
+	return mod(mod(x)*mod(y));
+}
+
+
+//modulo =1e9+7
