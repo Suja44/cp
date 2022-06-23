@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+using namespace std::chrono;
+#define int                         long long
+#define endl                        ("\n")
+#define pb                          push_back
+#define fi(i,n)                     for(int i=0;i<n;i++)
+#define vi                          vector<int>
+#define inp(v)						          for (int &x : v) cin >> x;
+#define all(c)                      c.begin() , c.end()
+#define fastio                      ios_base::sync_with_stdio(false), cin.tie(nullptr) , cout.tie(nullptr);
+#define pn 						              cout<<"NO\n"
+#define py 						             	cout<<"YES\n"
+#define mx 						            	1e14
+#define w(t) 					             	int t=1; cin>>t; while(t--)
+#define cntbits(x) 				         	__builtin_popcountll(x)
+#define lagzrobits(x) 			        __builtin_ctzll(x)
+#define leadzrobits(x)              __builtin_clzll(x)
+#define mod 					            	1000000007
