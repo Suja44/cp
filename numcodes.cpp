@@ -44,3 +44,14 @@ int divisors(int n){
 		
 	return div_num;
 }
+
+vi factors_n(int n){
+	vi v(n+1,0);
+	for(int i=1;i<=n;i++){
+		for(int j=i;j<=n;j+=i){
+			v[j]++;
+		}
+	}
+
+	return v;
+}
