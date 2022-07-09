@@ -1,3 +1,4 @@
-1)Mere array
-2)two round dances
-3)social distance
+1)Mere array         // could get part of the logic
+2)two round dances   //didnt understand the q
+3)social distance    //
+4)product of 3 nums  //dont know y its not working 
