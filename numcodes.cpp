@@ -55,3 +55,17 @@ vi factors_n(int n){
 
 	return v;
 }
+
+vi seiv(int n){
+	vi primes(n+1,1);
+	primes[1]=0;
+	for(int i=2;i<=n;i++){
+		if(!primes[i]){
+			for(int j=i*i;j<=n;j+=i){
+				primes[j]=0;
+			}
+		}
+	}
+
+	return primes;
+}
