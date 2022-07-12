@@ -1,4 +1,8 @@
 
+int modulo(int x,int N){
+    return (x % N + N) %N;
+}
+
 int power(int a, int b) {
 	int res = 1;
 	while (b > 0) {
