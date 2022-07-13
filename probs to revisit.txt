@@ -1,0 +1,3 @@
+Not a Cheap String  cf
+train and quries  cf
+Yet Another Problem About Pairs Satisfying an Inequality cf
