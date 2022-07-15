@@ -2,3 +2,6 @@
 2)two round dances   //didnt understand the q
 3)social distance    //
 4)product of 3 nums  //dont know y its not working 
+int val=(i ^ (i>>1));      //cant undrtand
+
+
