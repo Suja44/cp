@@ -40,9 +40,9 @@ for(int i=2;i*i<=n;i++){
 
 int divisors(int n){
 	int div_num=0;
-	for (int i = 1; i * i <= x; i++) {
-			if (x % i == 0) {
-				div_num += i * i == x ? 1 : 2;
+	for (int i = 1; i * i <= n; i++) {
+			if (n % i == 0) {
+				div_num += i * i == n ? 1 : 2;
 			}
 		}
 		
