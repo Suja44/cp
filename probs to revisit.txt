@@ -3,3 +3,4 @@ train and quries  cf
 Yet Another Problem About Pairs Satisfying an Inequality cf
 robot takahashi  atcoder
 a and b team training cf
+ice and fire
